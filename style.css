@@ -1,0 +1,97 @@
+header{
+    background-color: yellow;
+    height: 5rem;
+}
+
+#one{
+    background-color: yellowgreen;
+}
+
+#two{
+    background-color: violet;
+}
+
+#three{
+    background-color: aqua;
+}
+
+footer{
+    background-color: yellow;
+    height: 5rem;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+@media  only screen and (min-width: 1200px){
+    section{
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;        
+    }
+    #one{
+        height: 50%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #two{
+        height: 50%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #three{
+        height: 100%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media  only screen and (min-width: 600px){
+    section{
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;        
+    }
+    #one{
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #two{
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #three{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media  only screen and (min-width: 300px){
+    section{
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+    }
+    div{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
